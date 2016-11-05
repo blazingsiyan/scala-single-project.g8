@@ -2,11 +2,17 @@ My [Giter8][g8] template for scala single project.
 
 - with sbt 0.13.13 and scala 2.11.8
 - bundled with sbt, and sbt-launch.jar
-- `repositories` config file, for overriding resolvers
+- add a `repositories` file, for overriding global resolvers
 - essential plugins
   - [coursier][coursier] for faster artifact fetching
   - [sbt-assembly][sbt-assembly] for packaging
   - [sbt-aether-deploy][sbt-aether-deploy] for better maven deploy support.
+
+Usages:
+
+```
+sbt new xsy233/scala-single-project.g8
+```
 
 [g8]: http://www.foundweekends.org/giter8/
 [coursier]: https://github.com/alexarchambault/coursier
